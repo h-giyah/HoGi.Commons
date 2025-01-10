@@ -8,10 +8,20 @@
     <Title>HoGi.Common.Interfaces</Title>
     <Description>just common interfaces for some shared services in packages</Description>
     <Copyright>None</Copyright>
+    <PackageProjectUrl>https://github.com/h-giyah/HoGi.Commons</PackageProjectUrl>
+    <PackageIcon>HoGi_Logo128.png</PackageIcon>
+    <PackageTags>HoGi;Commons</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <Content Include="HoGi_Logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\h.giyah\Desktop\HoGi_Logo128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
