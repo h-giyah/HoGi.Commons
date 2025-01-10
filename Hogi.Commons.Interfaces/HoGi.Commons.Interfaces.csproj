@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ApplicationIcon>HoGi_Logo.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HoGi.Common.Interfaces</Title>
+    <Description>just common interfaces for some shared services in packages</Description>
+    <Copyright>None</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="HoGi_Logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

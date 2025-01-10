@@ -1,0 +1,42 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>HoGi.ToolsAndExtensions</Title>
+    <Authors>Hossein Giyah</Authors>
+    <Description>Tools for internal use and HoGi packages</Description>
+    <Copyright>None</Copyright>
+    <PackageTags>HoGi,ToolsAndExtensions</PackageTags>
+    <NeutralLanguage>fa</NeutralLanguage>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <FileVersion>1.0.2</FileVersion>
+    <Version>1.0.2</Version>
+    <PackageReleaseNotes>Supporting Cashe Service Interface</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\banks.json" />
+    <None Remove="Resources\etfNationalCodes.json" />
+    <None Remove="Resources\geo.json" />
+    <None Remove="Resources\jobs.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\banks.json" />
+    <EmbeddedResource Include="Resources\geo.json" />
+    <EmbeddedResource Include="Resources\jobs.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="6.2.15" />
+    <PackageReference Include="HoGi.Shared.Exceptions" Version="1.0.3" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="8.0.11" />
+    <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="3.1.1" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,484 @@
+﻿[
+  {
+    "code": 0,
+    "name": "تعریف نشده",
+    "sahraCode": -1,
+    "rayanCode": -1,
+    "tadbirCode": -1,
+    "sejamCode": -1,
+    "finnotechCode": "-01",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": []
+
+  },
+  {
+    "code": 1,
+    "name": "اقتصاد نوین",
+    "sahraCode": 102,
+    "rayanCode": 1,
+    "tadbirCode": 1,
+    "sejamCode": 123101,
+    "finnotechCode": "055",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "627412" ]
+
+  },
+  {
+    "code": 2,
+    "name": "تجارت",
+    "sahraCode": 107,
+    "rayanCode": 2,
+    "tadbirCode": 9,
+    "sejamCode": 123105,
+    "finnotechCode": "018",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "627353", "585983" ]
+
+  },
+  {
+    "code": 3,
+    "name": "توسعه صادرات",
+    "sahraCode": 110,
+    "rayanCode": 3,
+    "tadbirCode": 45,
+    "sejamCode": 123106,
+    "finnotechCode": "020",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "627648", "207177" ]
+
+  },
+  {
+    "code": 4,
+    "name": "رفاه كارگران",
+    "sahraCode": 114,
+    "rayanCode": 4,
+    "tadbirCode": 10,
+    "sejamCode": 122718,
+    "finnotechCode": "013",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "589463" ]
+
+  },
+  {
+    "code": 5,
+    "name": "سامان",
+    "sahraCode": 115,
+    "rayanCode": 5,
+    "tadbirCode": 8,
+    "sejamCode": 123109,
+    "finnotechCode": "056",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "621986" ]
+
+  },
+  {
+    "code": 6,
+    "name": "سرمایه",
+    "sahraCode": 117,
+    "rayanCode": 6,
+    "tadbirCode": 12,
+    "sejamCode": 123116,
+    "finnotechCode": "058",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "639607" ]
+
+  },
+  {
+    "code": 7,
+    "name": "سپه",
+    "sahraCode": 116,
+    "rayanCode": 7,
+    "tadbirCode": 4,
+    "sejamCode": 123110,
+    "finnotechCode": "015",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "589210", "604932" ]
+
+  },
+  {
+    "code": 8,
+    "name": "صادرات",
+    "sahraCode": 120,
+    "rayanCode": 8,
+    "tadbirCode": 5,
+    "sejamCode": 128,
+    "finnotechCode": "019",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "603769"]
+
+  },
+  {
+    "code": 9,
+    "name": "صنعت و معدن",
+    "sahraCode": 121,
+    "rayanCode": 9,
+    "tadbirCode": 38,
+    "sejamCode": 123112,
+    "finnotechCode": "011",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "627961" ]
+
+
+  },
+  {
+    "code": 10,
+    "name": "مسكن",
+    "sahraCode": 126,
+    "rayanCode": 10,
+    "tadbirCode": 15,
+    "sejamCode": 123113,
+    "finnotechCode": "014",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "628023" ]
+
+  },
+  {
+    "code": 11,
+    "name": "ملت",
+    "sahraCode": 128,
+    "rayanCode": 11,
+    "tadbirCode": 6,
+    "sejamCode": 130,
+    "finnotechCode": "012",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "610433", "991975" ]
+
+  },
+  {
+    "code": 12,
+    "name": "ملی",
+    "sahraCode": 129,
+    "rayanCode": 12,
+    "tadbirCode": 7,
+    "sejamCode": 127,
+    "finnotechCode": "017",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "603799", "170019", "589905" ]
+
+  },
+  {
+    "code": 15,
+    "name": "پارسیان",
+    "sahraCode": 105,
+    "rayanCode": 15,
+    "tadbirCode": 2,
+    "sejamCode": 122795,
+    "finnotechCode": "054",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "622106", "627884", "639194" ]
+
+  },
+  {
+    "code": 16,
+    "name": "پاسارگاد",
+    "sahraCode": 106,
+    "rayanCode": 16,
+    "tadbirCode": 3,
+    "sejamCode": 123104,
+    "finnotechCode": "057",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "639347", "502229"]
+
+  },
+  {
+    "code": 17,
+    "name": "كارآفرین",
+    "sahraCode": 130,
+    "rayanCode": 17,
+    "tadbirCode": 13,
+    "sejamCode": 123114,
+    "finnotechCode": "053",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "627488", "502910" ]
+
+  },
+  {
+    "code": 18,
+    "name": "كشاورزی",
+    "sahraCode": 131,
+    "rayanCode": 18,
+    "tadbirCode": 11,
+    "sejamCode": 123115,
+    "finnotechCode": "016",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "603770", "639217" ]
+
+  },
+  {
+    "code": 19,
+    "name": "شهر",
+    "sahraCode": 119,
+    "rayanCode": 19,
+    "tadbirCode": 19,
+    "sejamCode": 123111,
+    "finnotechCode": "061",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "502806", "504706" ]
+
+  },
+  {
+    "code": 21,
+    "name": "پست بانك",
+    "sahraCode": 132,
+    "rayanCode": 11,
+    "tadbirCode": 17,
+    "sejamCode": 123133,
+    "finnotechCode": "021",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "627760"]
+
+  },
+  {
+    "code": 23,
+    "name": "انصار",
+    "sahraCode": 103,
+    "rayanCode": 23,
+    "tadbirCode": 21,
+    "sejamCode": 123102,
+    "finnotechCode": "063",
+    "isActiveForBankAccount": 0,
+    "CardNumbers": [ "627381" ]
+
+  },
+  {
+    "code": 24,
+    "name": "سینا",
+    "sahraCode": 118,
+    "rayanCode": 24,
+    "tadbirCode": 20,
+    "sejamCode": 123118,
+    "finnotechCode": "059",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "639346" ]
+
+
+  },
+  {
+    "code": 30,
+    "name": "آینده",
+    "sahraCode": 101,
+    "rayanCode": 30,
+    "tadbirCode": 29,
+    "sejamCode": 129,
+    "finnotechCode": "062",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "636214", "186214" ]
+
+  },
+  {
+    "code": 36,
+    "name": "توسعه تعاون",
+    "sahraCode": 109,
+    "rayanCode": 36,
+    "tadbirCode": 39,
+    "sejamCode": 123123,
+    "finnotechCode": "022",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "502908"]
+
+  },
+  {
+    "code": 45,
+    "name": "خاورمیانه",
+    "sahraCode": 112,
+    "rayanCode": 45,
+    "tadbirCode": 32,
+    "sejamCode": 123108,
+    "finnotechCode": "078",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "585947" ]
+
+  },
+  {
+    "code": 51,
+    "name": "مبنا",
+    "sahraCode": 144,
+    "rayanCode": 51,
+    "tadbirCode": -1,
+    "sejamCode": -1,
+    "finnotechCode": "-01",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [  ]
+
+  },
+  {
+    "code": 52,
+    "name": "پرشین",
+    "sahraCode": 138,
+    "rayanCode": 52,
+    "tadbirCode": -1,
+    "sejamCode": -1,
+    "finnotechCode": "-01",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [  ]
+
+  },
+  {
+    "code": 56,
+    "name": "بانک مشترک ایران و ونزوئلا",
+    "sahraCode": 127,
+    "rayanCode": 56,
+    "tadbirCode": -1,
+    "sejamCode": 123162,
+    "finnotechCode": "095",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "581874" ]
+
+  },
+  {
+    "code": 47,
+    "name": "قرض الحسنه مهر ایران",
+    "sahraCode": 123,
+    "rayanCode": 47,
+    "tadbirCode": -1,
+    "sejamCode": 123158,
+    "finnotechCode": "060",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "606373" ]
+
+  },
+  {
+    "code": 49,
+    "name": "قرض الحسنه مهر اقتصاد",
+    "sahraCode": 156,
+    "rayanCode": 49,
+    "tadbirCode": -1,
+    "sejamCode": 123117,
+    "finnotechCode": "060",
+    "isActiveForBankAccount": 0,
+    "CardNumbers": [ "639370" ]
+
+  },
+  {
+    "code": 33,
+    "name": "دی",
+    "sahraCode": 113,
+    "rayanCode": 33,
+    "tadbirCode": -1,
+    "sejamCode": 131,
+    "finnotechCode": "066",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "502938" ]
+
+  },
+  {
+    "code": 48,
+    "name": "قرض الحسنه رسالت",
+    "sahraCode": 122,
+    "rayanCode": 48,
+    "tadbirCode": -1,
+    "sejamCode": 123122,
+    "finnotechCode": "070",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "504172" ]
+
+  },
+  {
+    "code": 14,
+    "name": "قوامین",
+    "sahraCode": 124,
+    "rayanCode": 14,
+    "tadbirCode": -1,
+    "sejamCode": 123120,
+    "finnotechCode": "052",
+    "isActiveForBankAccount": 0,
+    "CardNumbers": [ "639599" ]
+
+  },
+  {
+    "code": 35,
+    "name": "گردشگری",
+    "sahraCode": 125,
+    "rayanCode": 35,
+    "tadbirCode": -1,
+    "sejamCode": 123119,
+    "finnotechCode": "064",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "505416" ]
+
+  },
+  {
+    "code": 43,
+    "name": "حکمت ایرانیان",
+    "sahraCode": 111,
+    "rayanCode": 43,
+    "tadbirCode": -1,
+    "sejamCode": 123107,
+    "finnotechCode": "065",
+    "isActiveForBankAccount": 0,
+    "CardNumbers": [ "636949" ]
+
+  },
+  {
+    "code": 37,
+    "name": "ایران زمین",
+    "sahraCode": 104,
+    "rayanCode": 37,
+    "tadbirCode": -1,
+    "sejamCode": 123103,
+    "finnotechCode": "069",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [ "505785" ]
+
+  },
+  {
+    "code": 57,
+    "name": "موسسه مالی اعتباری ملل",
+    "sahraCode": 136,
+    "rayanCode": 28,
+    "tadbirCode": -1,
+    "sejamCode": 123160,
+    "finnotechCode": "075",
+    "isActiveForBankAccount": 0,
+    "CardNumbers": [ "606256" ]
+
+  },
+  {
+    "code": 58,
+    "name": "موسسه مالی اعتباری کوثر",
+    "sahraCode": 135,
+    "rayanCode": 50,
+    "tadbirCode": -1,
+    "sejamCode": 123159,
+    "finnotechCode": "073",
+    "isActiveForBankAccount": 0,
+    "CardNumbers": [ "505801" ]
+
+  },
+  {
+    "code": 59,
+    "name": "موسسه اعتباری مهر",
+    "sahraCode": 151,
+    "rayanCode": -1,
+    "tadbirCode": -1,
+    "sejamCode": -1,
+    "finnotechCode": "-1",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": [  ]
+
+  },
+  {
+    "code": -1,
+    "name": "نامشخص",
+    "sahraCode": -1,
+    "rayanCode": -1,
+    "tadbirCode": -1,
+    "sejamCode": -1,
+    "finnotechCode": "-01",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": []
+
+  },
+  {
+    "code": 0,
+    "name": "نامشخص",
+    "sahraCode": -1,
+    "rayanCode": -1,
+    "tadbirCode": -1,
+    "sejamCode": -1,
+    "finnotechCode": "-01",
+    "isActiveForBankAccount": 1,
+    "CardNumbers": []
+
+  }
+]

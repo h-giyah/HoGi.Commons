@@ -1,0 +1,152 @@
+﻿[
+  {
+    "id": 1,
+    "sejamCode": 109174,
+    "title": "بیکار"
+  },
+  {
+    "id": 2,
+    "sejamCode": 109176,
+    "title": "بازنشسته"
+  },
+  {
+    "id": 3,
+    "sejamCode": 109178,
+    "title": "کارگر"
+  },
+  {
+    "id": 4,
+    "sejamCode": 109179,
+    "title": "خانه دار"
+  },
+  {
+    "id": 5,
+    "sejamCode": 109180,
+    "title": "کارمند"
+  },
+  {
+    "id": 7,
+    "sejamCode": 123134,
+    "title": "محصل"
+  },
+  {
+    "id": 8,
+    "sejamCode": 123135,
+    "title": "دانشجوی دانشگاه"
+  },
+  {
+    "id": 9,
+    "sejamCode": 123136,
+    "title": "نظامی"
+  },
+  {
+    "id": 10,
+    "sejamCode": 123137,
+    "title": "پزشک"
+  },
+  {
+    "id": 11,
+    "sejamCode": 123138,
+    "title": "فعال اقتصادی"
+  },
+  {
+    "id": 12,
+    "sejamCode": 123139,
+    "title": "مهندس"
+  },
+  {
+    "id": 13,
+    "sejamCode": 123140,
+    "title": "وکیل"
+  },
+  {
+    "id": 14,
+    "sejamCode": 123141,
+    "title": "پرستار"
+  },
+  {
+    "id": 15,
+    "sejamCode": 123142,
+    "title": "خدماتی"
+  },
+  {
+    "id": 16,
+    "sejamCode": 123143,
+    "title": "معلم"
+  },
+  {
+    "id": 17,
+    "sejamCode": 123144,
+    "title": "تکنسین فنی"
+  },
+  {
+    "id": 18,
+    "sejamCode": 123145,
+    "title": "راننده"
+  },
+  {
+    "id": 19,
+    "sejamCode": 123146,
+    "title": "مکانیک"
+  },
+  {
+    "id": 20,
+    "sejamCode": 123147,
+    "title": "فروشنده"
+  },
+  {
+    "id": 21,
+    "sejamCode": 123148,
+    "title": "تاجر"
+  },
+  {
+    "id": 22,
+    "sejamCode": 123149,
+    "title": "بهیار"
+  },
+  {
+    "id": 23,
+    "sejamCode": 123150,
+    "title": "استاد دانشگاه"
+  },
+  {
+    "id": 24,
+    "sejamCode": 123151,
+    "title": "کاسب"
+  },
+  {
+    "id": 25,
+    "sejamCode": 123152,
+    "title": "فعال حوزه صنعت"
+  },
+  {
+    "id": 26,
+    "sejamCode": 123153,
+    "title": "تولیدی"
+  },
+  {
+    "id": 27,
+    "sejamCode": 123154,
+    "title": "بازرگانی"
+  },
+  {
+    "id": 28,
+    "sejamCode": 123155,
+    "title": "کشاورزی"
+  },
+  {
+    "id": 29,
+    "sejamCode": 123156,
+    "title": "علمی"
+  },
+  {
+    "id": 30,
+    "sejamCode": 123157,
+    "title": "شغل آزاد"
+  },
+  {
+    "id": 6,
+    "sejamCode": 123159,
+    "title": "سایر"
+  }
+]
