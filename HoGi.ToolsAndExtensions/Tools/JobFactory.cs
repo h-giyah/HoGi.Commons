@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
-using HoGi.ToolsAndExtensions.Models;
+using HoGi.Commons.ToolsAndExtensions.Models;
 using Newtonsoft.Json;
 
-namespace HoGi.ToolsAndExtensions.Tools
+namespace HoGi.Commons.ToolsAndExtensions.Tools
 {
     public class JobFactory
     {

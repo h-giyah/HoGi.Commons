@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public static class AccountClaimsExtension
     {
         public static Guid GetUserId(this ClaimsPrincipal user)
         {
-            var userId = user.Claims.Where(w => w.Type == "sub").Select(s => new Guid(s.Value)).FirstOrDefault();
+            var userId = user.Claims.Where(w => w.Type is "sub" or ClaimTypes.NameIdentifier)
+                .Select(s => new Guid(s.Value))
+                .FirstOrDefault();
             return userId;
         }
 

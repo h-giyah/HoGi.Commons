@@ -4,9 +4,9 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Reflection;
-using HoGi.ToolsAndExtensions.Attributes;
+using HoGi.Commons.ToolsAndExtensions.Attributes;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public static class EnumExtension
     {

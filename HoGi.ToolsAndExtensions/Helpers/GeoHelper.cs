@@ -1,4 +1,4 @@
-﻿namespace HoGi.ToolsAndExtensions.Helpers
+﻿namespace HoGi.Commons.ToolsAndExtensions.Helpers
 {
     public class GeoHelper
     {

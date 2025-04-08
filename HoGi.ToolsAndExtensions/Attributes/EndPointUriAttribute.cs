@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HoGi.ToolsAndExtensions.Attributes
+namespace HoGi.Commons.ToolsAndExtensions.Attributes
 {
     public class EndPointUriAttribute : Attribute
     {

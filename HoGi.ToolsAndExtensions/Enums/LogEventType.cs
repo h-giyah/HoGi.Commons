@@ -1,4 +1,4 @@
-﻿namespace HoGi.ToolsAndExtensions.Enums
+﻿namespace HoGi.Commons.ToolsAndExtensions.Enums
 {
     public enum OperationType
     {

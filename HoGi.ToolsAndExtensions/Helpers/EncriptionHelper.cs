@@ -3,7 +3,7 @@ using System.IO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace HoGi.ToolsAndExtensions.Helpers
+namespace HoGi.Commons.ToolsAndExtensions.Helpers
 {
     public static class EncryptionHelper
     {

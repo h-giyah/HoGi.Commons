@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace HoGi.ToolsAndExtensions.Attributes.Validator
+namespace HoGi.Commons.ToolsAndExtensions.Attributes.Validator
 {
     public class StringRangeAttribute : ValidationAttribute
     {

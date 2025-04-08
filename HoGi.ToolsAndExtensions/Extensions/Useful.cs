@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
    public static class Useful
     {

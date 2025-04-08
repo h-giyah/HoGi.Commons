@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public static class StringExtension
     {

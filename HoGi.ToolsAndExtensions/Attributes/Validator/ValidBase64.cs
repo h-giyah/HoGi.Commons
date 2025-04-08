@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace HoGi.ToolsAndExtensions.Attributes.Validator
+namespace HoGi.Commons.ToolsAndExtensions.Attributes.Validator
 {
     public class ValidBase64 : ValidationAttribute
     {

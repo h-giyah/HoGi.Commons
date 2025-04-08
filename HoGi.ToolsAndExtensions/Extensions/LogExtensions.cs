@@ -1,9 +1,9 @@
 ﻿using System.Linq;
-using HoGi.ToolsAndExtensions.Enums;
-using HoGi.ToolsAndExtensions.Models.Logs;
+using HoGi.Commons.ToolsAndExtensions.Enums;
+using HoGi.Commons.ToolsAndExtensions.Models.Logs;
 using Microsoft.Extensions.Logging;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public static class LogExtensions
     {

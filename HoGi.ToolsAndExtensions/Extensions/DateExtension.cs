@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public static class DateExtension
     {

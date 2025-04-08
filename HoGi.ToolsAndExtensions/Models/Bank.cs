@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HoGi.ToolsAndExtensions.Models
+namespace HoGi.Commons.ToolsAndExtensions.Models
 {
     public class Bank
     {

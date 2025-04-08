@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace HoGi.ToolsAndExtensions.Interfaces
+namespace HoGi.Commons.ToolsAndExtensions.Interfaces
 {
     public interface IExcelReader
     {

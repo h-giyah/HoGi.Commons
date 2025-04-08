@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HoGi.ToolsAndExtensions.Tools
+namespace HoGi.Commons.ToolsAndExtensions.Tools
 {
     public static class ClaimsConstant
     {

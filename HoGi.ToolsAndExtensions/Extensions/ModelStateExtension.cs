@@ -1,8 +1,8 @@
-﻿using HoGi.Shared.Exceptions;
+﻿using System.Linq;
+using HoGi.Shared.Exceptions;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
-using System.Linq;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public static class ModelStateExtension
     {

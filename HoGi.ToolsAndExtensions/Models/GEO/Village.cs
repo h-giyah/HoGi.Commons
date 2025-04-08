@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace HoGi.ToolsAndExtensions.Models.GEO
+namespace HoGi.Commons.ToolsAndExtensions.Models.GEO
 {
     public class Village : Place
     {

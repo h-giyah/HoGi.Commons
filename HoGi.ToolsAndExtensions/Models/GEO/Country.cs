@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace HoGi.ToolsAndExtensions.Models.GEO
+namespace HoGi.Commons.ToolsAndExtensions.Models.GEO
 {
     public class Country : Place
     {

@@ -1,11 +1,11 @@
-﻿using HoGi.ToolsAndExtensions.Models;
-using Newtonsoft.Json;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
+using HoGi.Commons.ToolsAndExtensions.Models;
+using Newtonsoft.Json;
 
-namespace HoGi.ToolsAndExtensions.Tools
+namespace HoGi.Commons.ToolsAndExtensions.Tools
 {
     public class BankProvider
     {

@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
+using HoGi.Commons.ToolsAndExtensions.Interfaces;
 using HoGi.Shared.Exceptions;
-using HoGi.ToolsAndExtensions.Interfaces;
 using Newtonsoft.Json;
 using OfficeOpenXml;
 
-namespace HoGi.ToolsAndExtensions.Extensions
+namespace HoGi.Commons.ToolsAndExtensions.Extensions
 {
     public class ExcelReader : IExcelReader
     {

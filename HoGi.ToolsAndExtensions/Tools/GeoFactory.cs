@@ -1,13 +1,12 @@
-﻿using HoGi.ToolsAndExtensions.Models.GEO;
-using Newtonsoft.Json;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using HoGi.Commons.ToolsAndExtensions.Models.GEO;
 using HoGi.Shared.Exceptions;
+using Newtonsoft.Json;
 
-
-namespace HoGi.ToolsAndExtensions.Tools
+namespace HoGi.Commons.ToolsAndExtensions.Tools
 {
     public static class GeoFactory
     {

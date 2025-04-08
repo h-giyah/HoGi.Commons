@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Newtonsoft.Json;
 
-namespace HoGi.ToolsAndExtensions.Models.GEO
+namespace HoGi.Commons.ToolsAndExtensions.Models.GEO
 {
     public class Province : Place
     {
