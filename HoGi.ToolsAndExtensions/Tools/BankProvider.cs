@@ -15,7 +15,7 @@ namespace HoGi.Commons.ToolsAndExtensions.Tools
         {
             var assembly = typeof(Bank).GetTypeInfo().Assembly;
 
-            using var resource = assembly.GetManifestResourceStream("HoGi.ToolsAndExtensions.Resources.banks.json");
+            using var resource = assembly.GetManifestResourceStream("HoGi.Commons.ToolsAndExtensions.Resources.banks.json");
 
             using var jsonStreamReader = new StreamReader(resource ?? throw new InvalidOperationException());
 

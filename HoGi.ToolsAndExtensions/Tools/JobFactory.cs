@@ -15,7 +15,7 @@ namespace HoGi.Commons.ToolsAndExtensions.Tools
         static JobFactory()
         {
             var assembly = typeof(JobFactory).GetTypeInfo().Assembly;
-            using var resource = assembly.GetManifestResourceStream($"GreenPhoenix.ToolsAndExtensions.Resources.jobs.json");
+            using var resource = assembly.GetManifestResourceStream($"HoGi.Commons.ToolsAndExtensions.Resources.jobs.json");
             using var jsonStreamReader = new StreamReader(resource ?? throw new InvalidOperationException());
             jobs = JsonConvert.DeserializeObject<IList<SejamJob>>(jsonStreamReader.ReadToEnd());
         }

@@ -9,13 +9,20 @@
     <Copyright>None</Copyright>
     <PackageTags>HoGi,ToolsAndExtensions</PackageTags>
     <NeutralLanguage>fa</NeutralLanguage>
-    <AssemblyVersion>1.0.2</AssemblyVersion>
-    <FileVersion>1.0.2</FileVersion>
-    <Version>1.0.3</Version>
+    <AssemblyVersion>1.0.5</AssemblyVersion>
+    <FileVersion>1.0.5</FileVersion>
+    <Version>1.0.5</Version>
     <PackageReleaseNotes>Supporting Cashe Service Interface</PackageReleaseNotes>
+    <PackageIcon>HoGi_Logo128.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Tools\ClaimsConstant.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="HoGi_Logo.ico" />
     <None Remove="Resources\banks.json" />
     <None Remove="Resources\etfNationalCodes.json" />
     <None Remove="Resources\geo.json" />
@@ -23,9 +30,31 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="HoGi_Logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <EmbeddedResource Include="Resources\banks.json" />
     <EmbeddedResource Include="Resources\geo.json" />
     <EmbeddedResource Include="Resources\jobs.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="C:\Users\h.giyah\Desktop\HoGi_Logo128.png" Link="HoGi_Logo128.png">
+      <PackagePath>\</PackagePath>
+      <Pack>True</Pack>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\HoGi_Logo128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>
@@ -37,6 +66,10 @@
     <PackageReference Include="MongoDB.Driver" Version="2.23.1" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageReference Include="Serilog" Version="3.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="~\" />
   </ItemGroup>
 
 </Project>
