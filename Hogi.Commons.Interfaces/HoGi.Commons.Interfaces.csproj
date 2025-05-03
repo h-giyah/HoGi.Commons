@@ -11,6 +11,7 @@
     <PackageProjectUrl>https://github.com/h-giyah/HoGi.Commons</PackageProjectUrl>
     <PackageIcon>HoGi_Logo128.png</PackageIcon>
     <PackageTags>HoGi;Commons</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -18,7 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="C:\Users\h.giyah\Desktop\HoGi_Logo128.png">
+    <None Include="HoGi_Logo128.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -26,6 +27,13 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>

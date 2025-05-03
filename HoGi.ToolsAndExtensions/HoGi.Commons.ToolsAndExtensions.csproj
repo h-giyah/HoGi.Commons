@@ -15,6 +15,8 @@
     <PackageReleaseNotes>Supporting Cashe Service Interface</PackageReleaseNotes>
     <PackageIcon>HoGi_Logo128.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/h-giyah/HoGi.Commons</RepositoryUrl>
+    <ApplicationIcon>HoGi_Logo.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -47,11 +49,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\HoGi_Logo128.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-    <None Include="..\README.md">
+    <None Include="HoGi_Logo128.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
@@ -70,6 +68,13 @@
 
   <ItemGroup>
     <Folder Include="~\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
