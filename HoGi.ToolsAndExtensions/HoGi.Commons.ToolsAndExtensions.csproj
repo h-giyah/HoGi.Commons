@@ -17,6 +17,7 @@
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/h-giyah/HoGi.Commons</RepositoryUrl>
     <ApplicationIcon>HoGi_Logo.ico</ApplicationIcon>
+    <PackageLicenseFile>License.txt</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -42,6 +43,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="License.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <EmbeddedResource Include="Resources\banks.json" />
     <EmbeddedResource Include="Resources\geo.json" />
     <EmbeddedResource Include="Resources\jobs.json" />
@@ -60,6 +64,10 @@
 
   <ItemGroup>
     <None Update="HoGi_Logo128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="License.txt">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
