@@ -20,17 +20,14 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="HoGi_Logo128.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="HoGi_Logo128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

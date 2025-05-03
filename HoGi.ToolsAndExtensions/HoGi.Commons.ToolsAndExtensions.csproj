@@ -20,6 +20,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="~\**" />
+    <EmbeddedResource Remove="~\**" />
+    <None Remove="~\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="Tools\ClaimsConstant.cs" />
   </ItemGroup>
 
@@ -42,20 +48,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="C:\Users\h.giyah\Desktop\HoGi_Logo128.png" Link="HoGi_Logo128.png">
-      <PackagePath>\</PackagePath>
-      <Pack>True</Pack>
-    </EmbeddedResource>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="HoGi_Logo128.png">
-      <Pack>True</Pack>
-      <PackagePath>\</PackagePath>
-    </None>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="EPPlus" Version="6.2.15" />
     <PackageReference Include="HoGi.Shared.Exceptions" Version="1.0.3" />
     <PackageReference Include="MediatR" Version="12.2.0" />
@@ -67,10 +59,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="~\" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <None Update="HoGi_Logo128.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
