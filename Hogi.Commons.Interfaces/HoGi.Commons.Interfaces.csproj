@@ -12,6 +12,7 @@
     <PackageIcon>HoGi_Logo128.png</PackageIcon>
     <PackageTags>HoGi;Commons</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/h-giyah/HoGi.Commons</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
